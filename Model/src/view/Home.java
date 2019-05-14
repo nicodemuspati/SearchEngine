@@ -21,7 +21,7 @@ public class Home extends javax.swing.JFrame {
     public Home() {
         initComponents();
         index = new InvertedIndex();
-        index.readDirectory(new File("Lirik lagu"));
+        index.readDirectory(new File("Lirik Lagu"));
     }
 
     public static InvertedIndex getIndex() {

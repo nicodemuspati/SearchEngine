@@ -18,8 +18,7 @@ import java.util.ArrayList;
 public class TestBacaDirectory {
 
     public static void main(String[] args) {
-        File dir = new File("lirik lagu"
-                + "");
+        File dir = new File("Lirik Lagu");
         InvertedIndex index = new InvertedIndex();
         index.readDirectory(dir);
         ArrayList<Document> listDoc = index.getListOfDocument();
