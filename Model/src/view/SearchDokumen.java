@@ -40,6 +40,7 @@ public class SearchDokumen extends javax.swing.JFrame {
         CloseButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 153, 153));
 
         TabelkuSearch.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

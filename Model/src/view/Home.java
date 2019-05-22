@@ -47,6 +47,9 @@ public class Home extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 255, 255));
+
+        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
         AddButton.setFont(new java.awt.Font("Tahoma", 3, 12)); // NOI18N
         AddButton.setText("Add Songs");

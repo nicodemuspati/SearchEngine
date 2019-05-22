@@ -36,6 +36,7 @@ public class AddDokument extends javax.swing.JFrame {
         AddButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 102, 102));
 
         jLabel1.setText("Judul Dokument :");
 
