@@ -29,7 +29,7 @@ public class TestBacaDirectory {
         }
         index.makeDictionaryWithTermNumber();
         for (int i = 0; i < listDoc.size(); i++) {
-            listDoc.get(i).Stemming();
+            listDoc.get(i).stemming();
             index.makeTFIDF(i);
         }
 //        for (int i = 0; i < listDoc.size(); i++) {
