@@ -109,7 +109,7 @@ public class TentangAPK extends javax.swing.JFrame {
 
     private void BackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackActionPerformed
         // TODO add your handling code here:
-       GuiMesinPencarian pg = new GuiMesinPencarian();
+       MesinPencarian pg = new MesinPencarian();
         pg.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_BackActionPerformed
